@@ -25,4 +25,4 @@ To change the search query, simply change the `query` variable in the notebook (
 
 Here's an example of searching for the query "star wars" in a WhatsApp chat:
 
-![Example](./docs/imgs/example.png)
+![Example](./docs/imgs/example.jpg)
