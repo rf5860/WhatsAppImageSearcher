@@ -1,6 +1,6 @@
 # WhatsAppSearcher
 
-This repository is a tool for searching through images exported from WhatsApp using [CLIP](https://github.com/openai/CLIP).
+This repository as created to enable searching for images exported from WhatsApp by utilising [CLIP](https://github.com/openai/CLIP) (although it can be used to search for any images - there's nothing specific to WhatsApp).
 
 ## Pre-requisites
 
@@ -17,7 +17,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Usage
 
-Simply export a chat from WhatsApp, and place the extracted contents into the `history/` directory. Then run the Python notebook `WhatsAppSearcher.ipynb` to search through the images.
+Simply export a chat from WhatsApp, and place the extracted contents into a `history/` directory (in the same path as the notebook). Then run the Python notebook `WhatsAppSearcher.ipynb` to search through the images.
 
 To change the search query, simply change the `query` variable in the notebook (Under the section  "Encode the query").
 
